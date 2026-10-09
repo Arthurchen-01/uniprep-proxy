@@ -1,8 +1,5 @@
 {
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "https://api.uniprep.world/$1"
-    }
+    { "source": "/(.*)", "destination": "/api/proxy.js" }
   ]
 }
